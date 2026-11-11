@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+            color: green;
+            font-size: 2em;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my page</h1>
+    <p style="color: blue;">This paragraph is styled with inline CSS.</p>
+    <img src="Images/Husky.jpg" alt="Siberian Husky" width="300">
+
+    <div class="content-box">
+        <h2>A little about me</h2>
+        <p>This box demonstrates how padding and margin affect spacing.</p>
+    </div>
+
+    <h2>My Hobbies</h2>
+    <ol>
+        <li>Reading books</li>
+        <li>Traveling</li>
+        <li>Photography</li>
+    </ol>
+
+     <p><a href="https://www.laurea.fi">Visit Laurea</a></p>
+     
+    <h2>My Ongoing Courses</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Instructor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Web Development</td>
+                <td>Mr. Smith</td>
+            </tr>
+            <tr>
+                <td>Database Design</td>
+                <td>Ms. Johnson</td>
+            </tr>
+            <tr>
+                <td>Project Management</td>
+                <td>Mr. Brown</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Contact Form</h2>
+    <form>
+        <div class="form-field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-field">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
